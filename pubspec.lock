@@ -15,6 +15,15 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.4.3"
+  assets:
+    dependency: "direct main"
+    description:
+      path: "."
+      ref: HEAD
+      resolved-ref: "9cc121b3165e4dc15e8bb3071fb6a917c99ca016"
+      url: "git://github.com/AndriousSolutions/assets.git"
+    source: git
+    version: "0.0.1"
   async:
     dependency: transitive
     description:
@@ -247,9 +256,11 @@ packages:
   prefs:
     dependency: "direct main"
     description:
-      path: "..\\prefs"
-      relative: true
-    source: path
+      path: "."
+      ref: HEAD
+      resolved-ref: f2d63d59c647f024050de5dcc5a1c04785445ecb
+      url: "git://github.com/AndriousSolutions/prefs.git"
+    source: git
     version: "0.0.1"
   pub_semver:
     dependency: transitive

@@ -35,7 +35,7 @@ import 'package:file_utils/InstallFile.dart';
 
 import 'package:prefs/prefs.dart';
 
-import 'package:auth/Auth.dart';
+//import 'package:auth/Auth.dart';
 
 import 'package:assets/Assets.dart';
 
@@ -363,7 +363,7 @@ class AppController extends MVController{
   /// Ensure certain objects are 'disposed.'
   /// Callec by the AppState.dispose() function.
   static void _dispose() {
-    Auth.dispose();
+    //Auth.dispose();
     Prefs.dispose();
     MyApp.dispose();
   }

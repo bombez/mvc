@@ -14,10 +14,10 @@ dependencies:
 #    git:
 #      url: git://github.com/AndriousSolutions/mvc.git
 
-  auth:
+#  auth:
 #    path: ../../libs/auth
-    git:
-      url: git://github.com/AndriousSolutions/auth.git
+#    git:
+#      url: git://github.com/AndriousSolutions/auth.git
 
   assets:
 #    path: ../../libs/assets
